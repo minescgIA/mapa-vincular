@@ -28,7 +28,7 @@ export default async function ReportePage({ params }: Props) {
     return <StatusGate status={report.estado_pago} nombre={report.nombre_usuario} />
   }
   return (
-    <main className="min-h-screen px-4 py-10 max-w-2xl mx-auto" style={{ background: 'var(--color-bg)' }}>
+    <main className="min-h-screen" style={{ background: 'var(--bg)' }}>
       <HeaderCard report={report} />
       <TabNav report={report} />
     </main>
